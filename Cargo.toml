@@ -6,7 +6,7 @@ license = "CC0"
 keywords = ["log"]
 readme = "readme.md"
 description = "easy to use logger"
-repository = "https://github.com/rust-lang/cargo/"
+repository = "https://github.com/tongubin/ezlog"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
