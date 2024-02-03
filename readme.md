@@ -6,6 +6,10 @@ The log request consists of an _action_, _input_ data and _output_ data. Nothing
 
 A lot of things are hardcoded, so using this library as-is is not advised. Save it as your own crate.
 
+# Install
+
+`cargo add easy-log`
+
 # Usage
 
 The library has a `Logger` type and a `map![]` macro.
