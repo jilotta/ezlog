@@ -15,7 +15,7 @@ impl std::fmt::Display for Map<'_> {
 #[macro_export]
 macro_rules! map {
     ($($key:ident $(: $value:expr)?),*) => {
-        crate::Map(&[
+        $crate::Map(&[
             $(map!(@map_one $key $(: $value)?)),*
         ][..])
     };
